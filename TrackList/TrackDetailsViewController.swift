@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TrackDetailsViewController.swift
 //  TrackList
 //
 //  Created by jopootrivatel on 17.10.2022.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TrackDetailsViewController: UIViewController {
+    
+    var track: Track!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
 }
-
